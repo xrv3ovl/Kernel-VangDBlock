@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛡️ Kernel VangDBlock
+# 🛡️ Windows Kernel Security Monitor
 
 **Advanced Kernel-Mode Security Monitor for Windows**
 
@@ -8,7 +8,7 @@
 [![C++](https://img.shields.io/badge/C%2B%2B-KMDF-00599C?logo=cplusplus&logoColor=white)](https://isocpp.org/)
 [![C#](https://img.shields.io/badge/C%23-.NET%208-512BD4?logo=csharp&logoColor=white)](https://dotnet.microsoft.com/)
 [![License](https://img.shields.io/badge/License-Research-orange)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-In%20Development-yellow)](https://github.com/eduardomb08/Kernel-VangDBlock)
+[![Status](https://img.shields.io/badge/Status-In%20Development-yellow)](https://github.com/httpEduardo/windows-kernel-security-monitor)
 
 [Features](#-features) • [Architecture](#-architecture) • [Documentation](#-documentation) • [Roadmap](#-roadmap) • [Contributing](#-contributing)
 
@@ -18,7 +18,7 @@
 
 ## 📋 Overview
 
-**Kernel VangDBlock** is an advanced **kernel-mode security monitoring system** designed to detect and automatically respond to threats at the Windows kernel level. It provides real-time protection against rootkits, kernel hooks, DKOM attacks, and other low-level exploitation techniques.
+**Windows Kernel Security Monitor** is an advanced **kernel-mode security monitoring system** designed to detect and automatically respond to threats at the Windows kernel level. It provides real-time protection against rootkits, kernel hooks, DKOM attacks, and other low-level exploitation techniques.
 
 ### Key Capabilities
 
@@ -144,11 +144,11 @@
 # - .NET 8 SDK
 
 # 2. Clone repository
-git clone https://github.com/eduardomb08/Kernel-VangDBlock.git
-cd Kernel-VangDBlock
+git clone https://github.com/httpEduardo/windows-kernel-security-monitor.git
+cd windows-kernel-security-monitor
 
 # 3. Open solution
-start KernelSecProject.sln
+start WindowsKernelSecurityMonitor.sln
 
 # 4. Build driver (Release x64)
 msbuild /p:Configuration=Release /p:Platform=x64 workspace/src/driver/KernelSecDriver.vcxproj
@@ -272,7 +272,7 @@ This project is released under a **Research License**. See [LICENSE](LICENSE) fo
 
 ## 📞 Contact
 
-- **Project**: [Kernel VangDBlock](https://github.com/httpEduardo/Kernel-VangDBlock)
+- **Project**: [Windows Kernel Security Monitor](https://github.com/httpEduardo/windows-kernel-security-monitor)
 - Made by: Void
     
 

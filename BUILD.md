@@ -21,10 +21,10 @@ Visual Studio 2022 com suporte completo para:
 
 ```powershell
 # Abrir solução
-start KernelSecProject.sln
+start WindowsKernelSecurityMonitor.sln
 
 # Ou via MSBuild
-msbuild KernelSecProject.sln /p:Configuration=Debug /p:Platform=x64
+msbuild WindowsKernelSecurityMonitor.sln /p:Configuration=Debug /p:Platform=x64
 ```
 
 ### Output
